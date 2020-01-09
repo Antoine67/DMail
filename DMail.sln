@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29613.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DMail", "DMail\DMail.csproj", "{951452CB-BDDF-46B0-9094-90428CEA9FCA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{951452CB-BDDF-46B0-9094-90428CEA9FCA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{951452CB-BDDF-46B0-9094-90428CEA9FCA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{951452CB-BDDF-46B0-9094-90428CEA9FCA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{951452CB-BDDF-46B0-9094-90428CEA9FCA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FC0E1E49-7C1B-40EE-A6D1-095CA78B7F1E}
+	EndGlobalSection
+EndGlobal
