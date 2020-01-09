@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -21,7 +22,13 @@ namespace DMail
     {
         public EmailManager()
         {
+            Closing += OnWindowClosing;
             InitializeComponent();
+        }
+
+        private void OnWindowClosing(object sender, CancelEventArgs e)
+        {
+            this.Owner.Show();
         }
     }
 }

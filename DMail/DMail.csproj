@@ -146,8 +146,5 @@
     <Resource Include="Icons\ToggleNumbering.png" />
     <Resource Include="Icons\Undo.png" />
   </ItemGroup>
-  <ItemGroup>
-    <Resource Include="AlignCenter.png" />
-  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

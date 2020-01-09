@@ -9,24 +9,31 @@
     <Grid>
         <DockPanel>
 
-            <ToolBarTray DockPanel.Dock="Top">
+            <ToolBarTray DockPanel.Dock="Top" ToolBarTray.IsLocked="True">
                 <ToolBarTray.Resources>
-                        <Style TargetType="Image">
-                            <Style.Triggers>
-                                <Trigger Property="IsEnabled" Value="True">
-                                    <Setter Property="Opacity" Value="1"/>
-                                </Trigger>
-                            </Style.Triggers>
-                        </Style>
-                        <Style TargetType="TextBlock">
-                            <Setter Property="Width" Value="30"/>
-                            <Setter Property="TextAlignment" Value="Center"/>
-                            <Setter Property="FontFamily" Value="Palatino Linotype"/>
-                            <Setter Property="FontSize" Value ="14"/>
-                            <Setter Property="FontWeight" Value="Bold"/>
-                        </Style>
-                    </ToolBarTray.Resources>
-
+                    <Style TargetType="Image">
+                        <Style.Triggers>
+                            <Trigger Property="IsEnabled" Value="False">
+                                <Setter Property="Opacity" Value="0.5"/>
+                            </Trigger>
+                        </Style.Triggers>
+                    </Style>
+                    <Style TargetType="TextBlock">
+                        <Setter Property="Width" Value="30"/>
+                        <Setter Property="TextAlignment" Value="Center"/>
+                        <Setter Property="FontFamily" Value="Palatino Linotype"/>
+                        <Setter Property="FontSize" Value ="14"/>
+                        <Setter Property="FontWeight" Value="Bold"/>
+                    </Style>
+                    <Style TargetType="Button">
+                        <Style.Triggers>
+                            <Trigger Property="IsEnabled" Value="False">
+                                <Setter Property="Cursor" Value="Cross"/>
+                            </Trigger>
+                        </Style.Triggers>
+                    </Style>
+                </ToolBarTray.Resources>
+                
                 <ToolBar Header="Devalgo">
                     <Button Command="Undo" ToolTip="Undo">
                         <Image Source="Icons/Undo.png" Width="20" Height="20"/>

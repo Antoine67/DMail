@@ -24,5 +24,17 @@ namespace DMail
         {
             InitializeComponent();
         }
+
+        private void Cancel_Button_Click(object sender, RoutedEventArgs e)
+        {
+            Window.GetWindow(this).Close();
+        }
+
+        private void Next_Button_Click(object sender, RoutedEventArgs e)
+        {
+            Grid gridPanel = (Grid)Window.GetWindow(this).Content;
+            TabControl tabControl = (TabControl)gridPanel.FindName("TAB_Control");
+            tabControl.SelectedIndex = tabControl.SelectedIndex + 1;
+        }
     }
 }
