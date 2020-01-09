@@ -15,7 +15,7 @@ using System.Windows.Shapes;
 namespace DMail
 {
     /// <summary>
-    /// Logique d'interaction pour EmailWritter.xaml
+    /// Logique d'interaction pour EmailManager.xaml
     /// </summary>
     public partial class EmailManager : Window
     {
