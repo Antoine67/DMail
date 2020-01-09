@@ -126,5 +126,28 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Undo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Icons\AlignCenter.png" />
+    <Resource Include="Icons\AlignJustify.png" />
+    <Resource Include="Icons\AlignLeft.png" />
+    <Resource Include="Icons\AlignRight.png" />
+    <Resource Include="Icons\Copy.png" />
+    <Resource Include="Icons\Cut.png" />
+    <Resource Include="Icons\DecreaseFontSize.png" />
+    <Resource Include="Icons\DecreaseIndentation.png" />
+    <Resource Include="Icons\IncreaseFontSize.png" />
+    <Resource Include="Icons\IncreaseIndentation.png" />
+    <Resource Include="Icons\Paste.png" />
+    <Resource Include="Icons\Redo.png" />
+    <Resource Include="Icons\ToggleBullets.png" />
+    <Resource Include="Icons\ToggleNumbering.png" />
+    <Resource Include="Icons\Undo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="AlignCenter.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

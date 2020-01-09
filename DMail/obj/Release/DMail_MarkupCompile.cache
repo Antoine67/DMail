@@ -10,11 +10,11 @@ none
 false
 TRACE
 C:\Users\amohr\Documents\p\dmail\DMail\DMail\App.xaml
-2-713774370
+51012846044
 
-8-575690078
+111462004649
 13-1505183044
-EmailWritter.xaml;SenderSelector.xaml;
+EmailManager.xaml;MainWindow.xaml;TabSelectRecipients.xaml;TabWriteMail.xaml;TextEditor.xaml;
 
-True
+False
 
