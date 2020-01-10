@@ -23,7 +23,7 @@
                 <RowDefinition Height="2*"/>
                 <RowDefinition Height="40"/>
             </Grid.RowDefinitions>
-            <local:TextEditor Grid.Row="1" Grid.Column="1"></local:TextEditor>
+            <local:TextEditor x:Name="TE_Email" Grid.Row="1" Grid.Column="1" LostFocus="Save_Email_Content"></local:TextEditor>
             <ListBox Grid.Column="3" HorizontalAlignment="Stretch" Grid.Row="1" VerticalAlignment="Stretch" />
         </Grid>
 

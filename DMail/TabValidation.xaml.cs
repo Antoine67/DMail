@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -35,6 +36,19 @@ namespace DMail
         private void Next_Button_Click(object sender, RoutedEventArgs e)
         {
            //TODO 
+        }
+
+        private void OnStartup(object sender, RoutedEventArgs e)
+        {
+            try
+            {
+                FlowDocument fd = new FlowDocument();
+                MemoryStream ms = new MemoryStream(Encoding.ASCII.GetBytes((string)Window.GetWindow(this).Tag));
+                TextRange textRange = new TextRange(fd.ContentStart, fd.ContentEnd);
+                textRange.Load(ms, DataFormats.Rtf);
+                this.RTB_Overview.Document = fd;
+            }
+            catch (Exception err) { }
         }
     }
 }

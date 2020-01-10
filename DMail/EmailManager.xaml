@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:DMail"
         mc:Ignorable="d"
-        Title="EmailManager" Height="450" Width="800">
+        Title="EmailManager" MinHeight="450" MinWidth="800">
     <Grid>
         <TabControl x:Name="TAB_Control" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" >
             <TabItem x:Name="BT_Write_Email" Header="Write" Height="23" VerticalAlignment="Top">

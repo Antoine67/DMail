@@ -100,7 +100,7 @@
 
             </ToolBarTray>
 
-            <RichTextBox x:Name="richTextBox" AcceptsTab="True" VerticalScrollBarVisibility="Auto"/>
+            <RichTextBox x:Name="RTB_Email_Content" AcceptsTab="True" VerticalScrollBarVisibility="Auto"/>
 
         </DockPanel>
     </Grid>

@@ -38,5 +38,10 @@ namespace DMail
             TabControl tabControl = (TabControl)gridPanel.FindName("TAB_Control");
             tabControl.SelectedIndex = tabControl.SelectedIndex + 1;
         }
+
+        private void Add_Sender_Button_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }

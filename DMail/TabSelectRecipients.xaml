@@ -31,7 +31,7 @@
                     <ColumnDefinition Width="2*"/>
                 </Grid.ColumnDefinitions>
 
-                <Button Grid.Column="0" Margin="0,0,3,0" Content="Ajouter" HorizontalAlignment="Stretch" VerticalAlignment="Center"  />
+                <Button Grid.Column="0" Margin="0,0,3,0" Content="Ajouter" HorizontalAlignment="Stretch" VerticalAlignment="Center" Click="Add_Sender_Button_Click"  />
                 <Button Grid.Column="1" Content="A partir d'un fichier" HorizontalAlignment="Stretch" VerticalAlignment="Center" />
             </Grid>
             <Label Content="Senders" HorizontalAlignment="Center" VerticalAlignment="Center" Grid.Row="1"/>

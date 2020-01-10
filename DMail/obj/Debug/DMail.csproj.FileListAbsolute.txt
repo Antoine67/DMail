@@ -46,3 +46,5 @@ D:\Documents\Perso - projets\Auto\Dev\DMail\DMail\obj\Debug\DMail.exe
 D:\Documents\Perso - projets\Auto\Dev\DMail\DMail\obj\Debug\DMail.pdb
 D:\Documents\Perso - projets\Auto\Dev\DMail\DMail\obj\Debug\TabValidation.g.cs
 D:\Documents\Perso - projets\Auto\Dev\DMail\DMail\obj\Debug\TabValidation.baml
+C:\Users\amohr\Documents\p\dmail\DMail\DMail\obj\Debug\TabValidation.g.cs
+C:\Users\amohr\Documents\p\dmail\DMail\DMail\obj\Debug\TabValidation.baml

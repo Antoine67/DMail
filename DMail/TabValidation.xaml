@@ -24,7 +24,7 @@
                 <RowDefinition Height="15*"/>
                 <RowDefinition Height="40"/>
             </Grid.RowDefinitions>
-            <RichTextBox x:Name="RTB_Overview" Grid.Column="1" HorizontalAlignment="Stretch" Grid.Row="3" VerticalAlignment="Stretch">
+            <RichTextBox x:Name="RTB_Overview" Grid.Column="1" HorizontalAlignment="Stretch" Grid.Row="3" VerticalAlignment="Stretch" Loaded="OnStartup" IsReadOnly="True">
                 <FlowDocument>
                     <Paragraph>
                         <Run Text="Overview"/>
@@ -53,7 +53,8 @@
 
             </Grid>
             <Grid Grid.Column="3" HorizontalAlignment="Stretch" Grid.Row="3" VerticalAlignment="Stretch">
-                
+                <ListBox HorizontalAlignment="Stretch" VerticalAlignment="Stretch"/>
+
             </Grid>
         </Grid>
 
