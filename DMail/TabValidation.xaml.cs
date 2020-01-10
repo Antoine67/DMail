@@ -16,11 +16,11 @@ using System.Windows.Shapes;
 namespace DMail
 {
     /// <summary>
-    /// Logique d'interaction pour TabSelectRecipients.xaml
+    /// Logique d'interaction pour TabValidation.xaml
     /// </summary>
-    public partial class TabSelectRecipients : UserControl
+    public partial class TabValidation : UserControl
     {
-        public TabSelectRecipients()
+        public TabValidation()
         {
             InitializeComponent();
         }
@@ -28,15 +28,13 @@ namespace DMail
         private void Cancel_Button_Click(object sender, RoutedEventArgs e)
         {
             Grid gridPanel = (Grid)Window.GetWindow(this).Content;
-            TabControl tabControl = (TabControl) gridPanel.FindName("TAB_Control");
+            TabControl tabControl = (TabControl)gridPanel.FindName("TAB_Control");
             tabControl.SelectedIndex = tabControl.SelectedIndex - 1;
         }
 
         private void Next_Button_Click(object sender, RoutedEventArgs e)
         {
-            Grid gridPanel = (Grid)Window.GetWindow(this).Content;
-            TabControl tabControl = (TabControl)gridPanel.FindName("TAB_Control");
-            tabControl.SelectedIndex = tabControl.SelectedIndex + 1;
+           //TODO 
         }
     }
 }

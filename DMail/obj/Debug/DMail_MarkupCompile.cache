@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-C:\Users\amohr\Documents\p\dmail\DMail\DMail\obj\Debug\
+D:\Documents\Perso - projets\Auto\Dev\DMail\DMail\obj\Debug\
 DMail
 none
 false
 DEBUG;TRACE
-C:\Users\amohr\Documents\p\dmail\DMail\DMail\App.xaml
-51012846044
+D:\Documents\Perso - projets\Auto\Dev\DMail\DMail\App.xaml
+6-1587790197
 
-111462004649
+12-1757468117
 13-1505183044
-EmailManager.xaml;MainWindow.xaml;TabSelectRecipients.xaml;TabWriteMail.xaml;TextEditor.xaml;
+EmailManager.xaml;MainWindow.xaml;TabSelectRecipients.xaml;TabValidation.xaml;TabWriteMail.xaml;TextEditor.xaml;
 
 False
 

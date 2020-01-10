@@ -61,6 +61,9 @@
     <Compile Include="TabSelectRecipients.xaml.cs">
       <DependentUpon>TabSelectRecipients.xaml</DependentUpon>
     </Compile>
+    <Compile Include="TabValidation.xaml.cs">
+      <DependentUpon>TabValidation.xaml</DependentUpon>
+    </Compile>
     <Compile Include="TabWriteMail.xaml.cs">
       <DependentUpon>TabWriteMail.xaml</DependentUpon>
     </Compile>
@@ -88,6 +91,10 @@
       <DependentUpon>MainWindow.xaml</DependentUpon>
     </Compile>
     <Page Include="TabSelectRecipients.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="TabValidation.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

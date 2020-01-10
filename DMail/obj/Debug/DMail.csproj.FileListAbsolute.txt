@@ -21,3 +21,28 @@ C:\Users\amohr\Documents\p\dmail\DMail\DMail\obj\Debug\TabSelectRecipients.baml
 C:\Users\amohr\Documents\p\dmail\DMail\DMail\obj\Debug\TabWriteMail.baml
 C:\Users\amohr\Documents\p\dmail\DMail\DMail\obj\Debug\TextEditor.g.cs
 C:\Users\amohr\Documents\p\dmail\DMail\DMail\obj\Debug\TextEditor.baml
+D:\Documents\Perso - projets\Auto\Dev\DMail\DMail\bin\Debug\DMail.exe.config
+D:\Documents\Perso - projets\Auto\Dev\DMail\DMail\bin\Debug\DMail.exe
+D:\Documents\Perso - projets\Auto\Dev\DMail\DMail\bin\Debug\DMail.pdb
+D:\Documents\Perso - projets\Auto\Dev\DMail\DMail\obj\Debug\DMail.csprojAssemblyReference.cache
+D:\Documents\Perso - projets\Auto\Dev\DMail\DMail\obj\Debug\EmailManager.g.cs
+D:\Documents\Perso - projets\Auto\Dev\DMail\DMail\obj\Debug\MainWindow.g.cs
+D:\Documents\Perso - projets\Auto\Dev\DMail\DMail\obj\Debug\TabSelectRecipients.g.cs
+D:\Documents\Perso - projets\Auto\Dev\DMail\DMail\obj\Debug\TabWriteMail.g.cs
+D:\Documents\Perso - projets\Auto\Dev\DMail\DMail\obj\Debug\TextEditor.g.cs
+D:\Documents\Perso - projets\Auto\Dev\DMail\DMail\obj\Debug\App.g.cs
+D:\Documents\Perso - projets\Auto\Dev\DMail\DMail\obj\Debug\GeneratedInternalTypeHelper.g.cs
+D:\Documents\Perso - projets\Auto\Dev\DMail\DMail\obj\Debug\DMail_MarkupCompile.cache
+D:\Documents\Perso - projets\Auto\Dev\DMail\DMail\obj\Debug\DMail_MarkupCompile.lref
+D:\Documents\Perso - projets\Auto\Dev\DMail\DMail\obj\Debug\EmailManager.baml
+D:\Documents\Perso - projets\Auto\Dev\DMail\DMail\obj\Debug\MainWindow.baml
+D:\Documents\Perso - projets\Auto\Dev\DMail\DMail\obj\Debug\TabSelectRecipients.baml
+D:\Documents\Perso - projets\Auto\Dev\DMail\DMail\obj\Debug\TabWriteMail.baml
+D:\Documents\Perso - projets\Auto\Dev\DMail\DMail\obj\Debug\TextEditor.baml
+D:\Documents\Perso - projets\Auto\Dev\DMail\DMail\obj\Debug\DMail.g.resources
+D:\Documents\Perso - projets\Auto\Dev\DMail\DMail\obj\Debug\DMail.Properties.Resources.resources
+D:\Documents\Perso - projets\Auto\Dev\DMail\DMail\obj\Debug\DMail.csproj.GenerateResource.cache
+D:\Documents\Perso - projets\Auto\Dev\DMail\DMail\obj\Debug\DMail.exe
+D:\Documents\Perso - projets\Auto\Dev\DMail\DMail\obj\Debug\DMail.pdb
+D:\Documents\Perso - projets\Auto\Dev\DMail\DMail\obj\Debug\TabValidation.g.cs
+D:\Documents\Perso - projets\Auto\Dev\DMail\DMail\obj\Debug\TabValidation.baml
